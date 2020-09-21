@@ -1,6 +1,6 @@
 # Book settings 
 # Modify these
-title             : Some Title Here
+title             : Dot in filename example
 author            : Fred Mitchell
 
 latex:
@@ -10,7 +10,7 @@ latex:
 # Location of book
 repository:
   # Modify this line
-  url          : https://github.com/fm75/jupyter-book-template
+  url          : https://github.com/fm75/jbook-dot-in-filename
   path_to_book : ""
   branch       : master
   
