@@ -36,6 +36,7 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Python 2.7 Example" href="python2.7-example.html" />
     <link rel="prev" title="jupyter-book-template" href="README.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -83,6 +84,11 @@
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
    Notebook
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="python2.7-example.html">
+   Python 2.7 Example
   </a>
  </li>
 </ul>
@@ -224,13 +230,13 @@
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[jupytext] Reading intro.ipynb in format ipynb
 Traceback (most recent call last):
-  File &quot;/opt/hostedtoolcache/Python/3.7.9/x64/bin/jupytext&quot;, line 11, in &lt;module&gt;
-    load_entry_point(&#39;jupytext==1.6.0&#39;, &#39;console_scripts&#39;, &#39;jupytext&#39;)()
-  File &quot;/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/jupytext/cli.py&quot;, line 402, in jupytext
+  File &quot;/srv/conda/envs/notebook/bin/jupytext&quot;, line 8, in &lt;module&gt;
+    sys.exit(jupytext())
+  File &quot;/srv/conda/envs/notebook/lib/python3.7/site-packages/jupytext/cli.py&quot;, line 402, in jupytext
     exit_code += jupytext_single_file(nb_file, args, log)
-  File &quot;/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/jupytext/cli.py&quot;, line 458, in jupytext_single_file
+  File &quot;/srv/conda/envs/notebook/lib/python3.7/site-packages/jupytext/cli.py&quot;, line 458, in jupytext_single_file
     notebook = read(nb_file, fmt=fmt)
-  File &quot;/opt/hostedtoolcache/Python/3.7.9/x64/lib/python3.7/site-packages/jupytext/jupytext.py&quot;, line 398, in read
+  File &quot;/srv/conda/envs/notebook/lib/python3.7/site-packages/jupytext/jupytext.py&quot;, line 398, in read
     with io.open(fp, encoding=&quot;utf-8&quot;) as stream:
 FileNotFoundError: [Errno 2] No such file or directory: &#39;intro.ipynb&#39;
 </pre></div>
@@ -268,6 +274,7 @@ FileNotFoundError: [Errno 2] No such file or directory: &#39;intro.ipynb&#39;
     <div class='prev-next-bottom'>
         
     <a class='left-prev' id="prev-link" href="README.html" title="previous page">jupyter-book-template</a>
+    <a class='right-next' id="next-link" href="python2.7-example.html" title="next page">Python 2.7 Example</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
