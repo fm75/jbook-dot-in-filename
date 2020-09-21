@@ -2,3 +2,4 @@
 - part: Notebooks
   chapters:
     - file: intro
+    - file: python2.7-example
